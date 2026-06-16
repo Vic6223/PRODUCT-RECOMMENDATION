@@ -1,0 +1,9 @@
+bhpython manage.py runserverpython manage.py runserverpython manage.py runserverpypip install django==4.2.11
+pip install numpy==1.26.4
+pip install matplotlib==3.8.4
+pip install spacy==3.7.2
+pip install textblob==0.17.1
+pip install requests==2.31.0
+pip install python-dotenv==1.0.1
+python -m spacy download en_core_web_sm
+
