@@ -1,0 +1,46 @@
+python 3.11
+################################
+To use Google’s Custom Search JSON API, which requires a GOOGLE_API_KEY and GOOGLE_CSE_ID, follow these steps:
+
+✅ Step 1: Get GOOGLE_API_KEY
+Go to https://console.cloud.google.com/
+
+Sign in with your Google account.
+
+Click "Select a project" (or "Create Project").
+
+After creating a project, go to:
+
+APIs & Services → Library
+
+Search for: Custom Search API
+
+Click it → Click Enable
+
+Go to: APIs & Services → Credentials
+
+Click Create Credentials → Select API Key
+
+Copy the generated key. That is your:
+
+
+✅ Step 2: Create a Custom Search Engine (CSE)
+Go to https://programmablesearchengine.google.com/
+
+Click “Get Started”
+
+Enter a website you want to search (e.g., www.amazon.in, or flipkart.com or *.com)
+
+Click Create
+
+Click Control Panel
+
+Turn on “Search the entire web” under Sites to Search
+
+Save changes
+
+On the Control Panel page, you'll see a Search engine ID — copy that:
+
+example structure:-
+GOOGLE_API_KEY=AIzaSyDxxxxxxxxxxxxxxxxxxxxxxxx
+GOOGLE_CSE_ID=031c60d4ab6a2418e
